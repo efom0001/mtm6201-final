@@ -54,7 +54,7 @@ aside{
     margin-bottom: 100px;
 }
 
-aside img{
+aside img, section img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
