@@ -71,18 +71,61 @@ aside a{
     text-align: center;
     text-decoration: none;
     transition: background-color 0.3s ease;
-  }
+}
 
-  aside div{
+aside div{
     width: 200px;
     margin: auto;
     padding-top: 40px;
     text-align: center;
-  }
+}
 
-  aside .d-md-flex{
+aside .d-md-flex{
     flex-wrap: wrap;
-  }
+}
+
+
+.about{
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.about > div{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+.contact{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-image: url(../images/my\ logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.5;
+}
+
+form{
+    width: 70%;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+
+/* button{
+    justify-tracks: end;
+} */
+
+
 
 footer{
     color:#89A86C;
